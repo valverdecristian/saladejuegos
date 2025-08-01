@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-juegos',
   imports: [RouterOutlet, RouterLink],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  templateUrl: './juegos.component.html',
+  styleUrl: './juegos.component.css'
 })
-export class AppComponent {
-  title = 'salaDeJuegos';
+export class JuegosComponent {
+
 }

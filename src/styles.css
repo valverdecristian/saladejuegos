@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+.card:hover {
+  transform: translateY(-8px) scale(1.03);
+  transition: all 0.3s ease-in-out;
+  background-color: #f8f9fa;
+}
+.card:hover .btn {
+  background-color: #0dcaf0;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+body {
+  background-image: url('/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
