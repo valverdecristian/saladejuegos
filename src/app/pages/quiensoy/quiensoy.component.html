@@ -1,5 +1,10 @@
-<ul>
-@for (entry of githubEntries(); track entry[0]) {
-  <p><strong>{{ entry[0] }}</strong>: {{ entry[1] }}</p>
-}
-</ul>
+<div class="container-fluid fondo-violeta">
+  <div class="card-custom p-4 rounded text-center d-flex flex-column align-items-center">
+    <img [src]="avatar" alt="Foto de perfil" class="perfil-img mb-3" />
+    <h5 class="titulo mb-3">{{ nombre }}</h5>
+    <p class="titulo mb-3">{{ bio }}</p>
+    <a href="https://github.com/valverdecristian" target="_blank" class="btn btn-custom">
+      <i class="fab fa-github me-2"></i> Ver en GitHub
+    </a>
+  </div>
+</div>
