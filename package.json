@@ -19,6 +19,7 @@
     "@angular/router": "^19.2.0",
     "@ng-bootstrap/ng-bootstrap": "^18.0.0",
     "@popperjs/core": "^2.11.8",
+    "@supabase/supabase-js": "^2.53.0",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.13.1",
