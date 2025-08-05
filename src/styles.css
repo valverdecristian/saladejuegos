@@ -91,6 +91,7 @@ code {
 
 /* SECCIONES TEMATICAS Y BLOQUES */
 .titulo {
+  margin-left: 12px;
   text-align: center;
   font-size: 2rem;
   color: #facc15;
@@ -442,4 +443,18 @@ code {
   .icon-circle i {
     font-size: 0.9rem;
   }
+}
+
+/* favicon */
+.logo-navbar {
+  height: 40px;
+  width: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  border: 2px solid #facc15;
+  box-shadow: 0 0 8px rgba(250, 204, 21, 0.4)
+}
+
+.logo-navbar:hover {
+  transform: scale(1.05);
 }
