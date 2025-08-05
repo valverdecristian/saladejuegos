@@ -68,17 +68,5 @@ export class AuthService {
     }
   }
 
-  async insertarUsuarioChat(data: { nombre: string; email: string; genero: string }) {
-  const { error } = await this.supabase
-    .from('usuarios_chat')
-    .insert([{
-      ...data,
-      creado: new Date().toISOString()
-    }]);
-
-  if (error) throw error;
-}
-
-
   // detectar cuando se inicia o cierra sesion
 }
