@@ -31,7 +31,7 @@ export class AuthService {
     });
   }
 
-  // crear cuenta
+  // esto crea el usuario en el sistema de autenticacion de Supabase
   async crearCuenta(email: string, password: string) {
     const { data, error } = await this.supabase.auth.signUp({
       email: email,
